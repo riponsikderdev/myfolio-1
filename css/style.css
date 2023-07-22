@@ -87,4 +87,7 @@ nav .menu{
     display: block;
     margin: 50px auto
 }
+.banner_cnt a{
+    color: black;
+}
 /* BANNER END */
