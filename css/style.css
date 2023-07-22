@@ -1,0 +1,90 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.button{
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 19px 43px;
+    display: inline-block;
+}
+/* COMMON CSS END */
+
+/* NAV START */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: inline-block;
+}
+/* NAV END */
+/* BANNER START */
+#banner{
+    background-color: rgba(0, 0, 0, 0.34);
+    background-image: url(../images/banner.jpg);
+    padding: 210px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+}.banner_cnt{
+    text-align: center;
+}
+.banner_cnt h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+.banner_cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.banner_cnt p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.banner_cnt img{
+    display: block;
+    margin: 50px auto
+}
+/* BANNER END */
